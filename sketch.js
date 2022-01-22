@@ -170,40 +170,40 @@ arrow.x = striker.x;
 arrow.y = striker.y;
 arrow.rotation = striker.rotation;
 //for top left hole.
-if(token1.x > 40 && token1.x < 75 && token1.y > 43 && token1 < 50){
+if(token1.x > 40 && token1.x < 75 && token1.y > 44 && token1.y < 56){
     score = score+1;
     token1.x = -100;
 }
-if(token2.x > 40 && token2.x < 75 && token2.y > 43 && token2 < 50){
+if(token2.x > 40 && token2.x < 75 && token2.y > 44 && token2.y < 56){
     score = score+1;
     token2.x = -100;
 }
-if(token3.x > 40 && token3.x < 75 && token3.y > 43 && token3 < 50){
+if(token3.x > 40 && token3.x < 75 && token3.y > 44 && token3.y < 56){
     score = score+1;
     token3.x = -100;
 }
-if(token4.x > 40 && token4.x < 75 && token4.y > 43 && token4 < 50){
+if(token4.x > 40 && token4.x < 75 && token4.y > 44 && token4.y < 56){
     score = score+1;
     token4.x = -100;
 }
-if(queen.x > 40 && queen.x < 75 && queen.y > 43 && queen.y < 50){
+if(queen.x > 40 && queen.x < 75 && queen.y > 44 && queen.y < 56){
     score = score+1;
     queen.x = -100;
 }
 //top right hole
-if(token1.x > 480 && token1.x < 495 && token1.y > 50 && token1 < 75){
+if(token1.x > 480 && token1.x < 495 && token1.y > 50 && token1.y < 75){
     score = score+1;
     token1.x = -100;
 }
-if(token2.x > 480 && token2.x < 495 && token2.y > 50 && token2 < 75){
+if(token2.x > 480 && token2.x < 495 && token2.y > 50 && token2.y < 75){
     score = score+1;
     token2.x = -100;
 }
-if(token3.x > 480 && token3.x < 495 && token3.y > 50 && token3 < 75){
+if(token3.x > 480 && token3.x < 495 && token3.y > 50 && token3.y < 75){
     score = score+1;
     token3.x = -100;
 }
-if(token4.x > 480 && token4.x < 495 && token4.y > 50 && token4 < 75){
+if(token4.x > 480 && token4.x < 495 && token4.y > 50 && token4.y < 75){
     score = score+1;
     token4.x = -100;
 }
@@ -212,19 +212,19 @@ if(queen.x > 480 && queen.x < 495 && queen.y > 50 && queen.y < 75){
     queen.x = -100;
 }
 //bottom left
-if(token1.x > 40 && token1.x < 75 && token1.y > 480 && token1 < 495){
+if(token1.x > 40 && token1.x < 75 && token1.y > 480 && token1.y < 495){
     score = score+1;
     token1.x = -100;
 }
-if(token2.x > 40 && token2.x < 75 && token2.y > 480 && token2 < 495){
+if(token2.x > 40 && token2.x < 75 && token2.y > 480 && token2.y < 495){
     score = score+1;
     token2.x = -100;
 }
-if(token3.x > 40 && token3.x < 75 && token3.y > 480 && token3 < 495){
+if(token3.x > 40 && token3.x < 75 && token3.y > 480 && token3.y < 495){
     score = score+1;
     token3.x = -100;
 }
-if(token4.x > 40 && token4.x < 75 && token4.y > 480 && token4 < 495){
+if(token4.x > 40 && token4.x < 75 && token4.y > 480 && token4.y < 495){
     score = score+1;
     token4.x = -100;
 }
@@ -233,19 +233,19 @@ if(queen.x > 40 && queen.x < 75 && queen.y > 480 && queen.y < 495){
     queen.x = -100;
 }
 //bottom right
-if(token1.x > 480 && token1.x < 495 && token1.y > 480 && token1 < 495){
+if(token1.x > 480 && token1.x < 495 && token1.y > 480 && token1.y < 495){
     score = score+1;
     token1.x = -100;
 }
-if(token2.x > 480 && token2.x < 495 && token2.y > 480 && token2 < 495){
+if(token2.x > 480 && token2.x < 495 && token2.y > 480 && token2.y < 495){
     score = score+1;
     token2.x = -100;
 }
-if(token3.x > 480 && token3.x < 495 && token3.y > 480 && token3 < 495){
+if(token3.x > 480 && token3.x < 495 && token3.y > 480 && token3.y < 495){
     score = score+1;
     token3.x = -100;
 }
-if(token4.x > 480 && token4.x < 495 && token4.y > 480 && token4 < 495){
+if(token4.x > 480 && token4.x < 495 && token4.y > 480 && token4.y < 495){
     score = score+1;
     token4.x = -100;
 }
